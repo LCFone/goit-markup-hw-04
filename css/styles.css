@@ -350,6 +350,7 @@ button:focus {
 
 .socials {
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -376,12 +377,16 @@ button:focus {
 
 /* `````CUSTOMERS````` */
 
-/* .customers-section {
+.customers-section {
   padding: 120px 0;
 }
 
 .customers-title {
   margin-bottom: 72px;
+}
+
+.customers-icon {
+  padding: 16 32;
 }
 
 .customers-list {
@@ -390,35 +395,15 @@ button:focus {
 }
 
 .customers-item {
+  width: calc((100% - 120px) / 6);
+
   border: 0.5px #8e8f99 solid;
   border-radius: 4px;
-  width: calc((100% - 120px) / 6);
 }
 
 .customers-link {
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
-  width: 168px;
-  height: 88px;
-}
-
-.customers-icon {
   fill: #8e8f99;
 }
-
-.customers-icon:hover,
-.customers-icon:focus {
-  fill: #404bbf;
-}
-.customers-item:hover {
-  border-color: #404bbf;
-} */
-
-
-/* .customers-icon {
-  padding: 16px 32px;
-} */
 
 /* ,,,,,customers,,,,, */
 
@@ -517,6 +502,5 @@ button:focus {
   letter-spacing: 0.02em;
   color: var(--footer-txt-color);
 }
-
 
 /* ,,,,,foooter,,,,, */
