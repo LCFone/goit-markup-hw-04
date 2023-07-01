@@ -214,6 +214,7 @@ button:focus {
 .hero-section {
   margin: 0 auto;
   padding: 188px 0;
+
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -308,6 +309,10 @@ button:focus {
   padding-bottom: 120px;
 }
 
+.opportunities-container {
+  align-items: center;
+}
+
 .opportunities-title {
   margin-bottom: 72px;
 }
@@ -344,13 +349,14 @@ button:focus {
 
 .team-item {
   width: calc((100% - 72px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
 .worker {
   padding: 32px 16px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
   border-radius: 4px;
 }
 
@@ -484,10 +490,20 @@ button:focus {
   width: calc((100% - 48px) / 3);
 }
 
-.item-portfolio:hover,
-.item-portfolio:focus {
+.portfolio-link {
+  display: block;
+}
+
+.portfolio-link:hover, 
+.portfolio-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+/* .item-portfolio:hover,
+.item-portfolio:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
 }
 
 .list-portfolio {
