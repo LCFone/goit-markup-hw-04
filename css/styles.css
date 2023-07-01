@@ -480,8 +480,8 @@ button:focus {
   background: #f4f4fd;
 }
 
-.filter-button:hover,
-.filter-button:focus {
+.item-button:hover,
+.item-button:focus {
   color: #ffffff;
   background-color: #404bbf;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
@@ -538,12 +538,13 @@ button:focus {
 }
 
 .footer-container {
+  margin-right: 120px;
   display: flex;
   align-items: baseline;
 }
 
 .footer-logo-container {
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 
 .footer-link {
@@ -583,7 +584,7 @@ button:focus {
 
 .footer-sm-items {
   width: 40px;
-  heigth: 40px;
+  height: 40px;
 }
 
 .footer-sm-links {
