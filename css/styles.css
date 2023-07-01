@@ -419,7 +419,7 @@ button:focus {
 }
 
 .customers-item {
-  /* width: calc((100% - 120px) / 6); */
+  width: calc((100% - 120px) / 6);
 
   height: 88px;
 }
@@ -480,8 +480,8 @@ button:focus {
   background: #f4f4fd;
 }
 
-.item-button:hover,
-.item-button:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: #ffffff;
   background-color: #404bbf;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
@@ -530,12 +530,10 @@ button:focus {
 
 /* `````FOOTER````` */
 
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  display: flex;
-  align-items: center; */
-/* .footer {
+.footer {
   padding: 100px 0;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   background-color: var(--footer-bg-color);
 }
 
@@ -549,7 +547,6 @@ button:focus {
 }
 
 .footer-link {
-  /* display: flex */ */
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -607,5 +604,5 @@ button:focus {
 
 .footer-sm-icons {
   fill: #f4f4fd;
-} */
+}
 /* ,,,,,foooter,,,,, */
