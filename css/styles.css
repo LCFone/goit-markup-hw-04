@@ -538,7 +538,7 @@ button:focus {
 }
 
 .footer-container {
-  margin-right: 120px;
+  /* margin-right: 120px; */
   display: flex;
   align-items: baseline;
 }
