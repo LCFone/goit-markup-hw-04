@@ -288,6 +288,7 @@ button:focus {
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!  align-items: center;
  */
 .goals-icon {
+  align-items: center;
   display: flex;
   justify-content: center;
 
