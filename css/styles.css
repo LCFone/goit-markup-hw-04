@@ -532,11 +532,11 @@ button:focus {
 .footer-container {
   display: flex;
   align-items: baseline;
+  margin-left: 156px;
 }
 
 .footer-logo-container {
   margin-right: 120px;
-  margin-left: 156px;
 }
 
 .footer-link {
