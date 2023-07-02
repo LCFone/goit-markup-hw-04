@@ -530,6 +530,12 @@ button:focus {
   background-color: var(--footer-bg-color);
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
+
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
@@ -551,11 +557,6 @@ button:focus {
   color: var(--footer-txt-color);
 }
 
-.footer-container {
-  display: flex;
-  align-items: baseline;
-}
-
 .footer-sm-text {
   margin-bottom: 16px;
   font-weight: 500;
@@ -568,10 +569,6 @@ button:focus {
 .footer-sm-list {
   display: flex;
   gap: 16px;
-}
-
-.footer-container {
-  margin-right: 120px;
 }
 
 .footer-sm-items {
