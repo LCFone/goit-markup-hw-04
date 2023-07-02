@@ -536,13 +536,9 @@ button:focus {
   /* margin-right: 120px; */
 }
 
-.footer-sm {
+.footer-logo-container {
   margin-right: 120px;
 }
-
-/* .footer-logo-container {
-  margin-right: 120px;
-} */
 
 .footer-link {
   display: inline-block;
