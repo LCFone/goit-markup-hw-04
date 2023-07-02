@@ -504,7 +504,7 @@ button:focus {
 } */
 
 .item-portfolio {
-  transition: box-shadow 0.3s;
+  /* transition: box-shadow 0.3s; */
   width: calc((100% - 48px) / 3);
 }
 
