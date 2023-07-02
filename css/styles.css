@@ -151,8 +151,8 @@ button:focus {
 
 /* `````HEADER````` */
 .header {
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  /* padding-top: 24px;
+  padding-top: 24px; */
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -160,6 +160,7 @@ button:focus {
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .header-nav {
@@ -176,7 +177,7 @@ button:focus {
   gap: 40px;
 }
 
-.nav-link {
+.header-item {
   padding: 24px 0;
 }
 
@@ -285,8 +286,6 @@ button:focus {
   width: calc((100% - 3 * 24px) / 4);
 }
 
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!  align-items: center;
- */
 .goals-icon {
   align-items: center;
   display: flex;
@@ -444,7 +443,7 @@ button:focus {
 
 .customers-icon {
   fill: currentColor;
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
 }
 /* ,,,,,customers,,,,, */
 
@@ -537,6 +536,7 @@ button:focus {
 }
 
 .footer-logo-container {
+  margin-left: 156px;
   margin-right: 120px;
 }
 
