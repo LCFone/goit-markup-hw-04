@@ -236,7 +236,7 @@ button:focus {
   margin-bottom: 48px;
 
   font-size: 56px;
-  font-waight: 700;
+  font-width: 700px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -532,12 +532,11 @@ button:focus {
 .footer-container {
   display: flex;
   align-items: baseline;
-  /* margin-right: 120px; */
 }
 
 .footer-logo-container {
-  margin-left: 156px;
   margin-right: 120px;
+  margin-left: 156px;
 }
 
 .footer-link {
